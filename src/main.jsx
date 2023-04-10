@@ -8,12 +8,17 @@ import {
 } from "react-router-dom";
 import Home from './components/Home/Home';
 import Statistics from './components/Statistics/Statistics';
+import DefaultPage from './components/DefaultPage/DefaultPage';
 
 const router=createBrowserRouter([
   {
      path:'/',
      element:<Home></Home>,
      children:[
+      {
+        path:'/',
+        element:<DefaultPage></DefaultPage>
+      },
       {
         path:'/statistics',
         element:<Statistics></Statistics>

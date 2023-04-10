@@ -1,34 +1,36 @@
 import React from 'react';
-import './Header.css'
+import './Header.css';
+import { Link } from 'react-router-dom';
 const Header = () => {
     return (
-        <div className='container' >
-            {/* navbar Section */}
-            <nav className="navbar navbar-expand-lg navbar-light ">
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
+   
+        <nav className="navbar navbar-expand-lg navbar-light pb-lg-4">
+            <div className="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                <a className="navbar-brand" href="">Job Recruiter</a>
+                <h4 className="ps-4">Job Recruiter</h4>
 
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                    <ul class="navbar-nav mr-auto ml-auto mt-2 mt-lg-0">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
                         <li class="nav-item active">
-                            <a class="nav-link" href="/statistics">Statistics</a>
+                            <Link class="nav-link" to="/statistics">Statistics</Link>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Applied Job</a>
+                            <Link class="nav-link" href="#">Applied Job</Link>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Blogs</a>
+                            <Link class="nav-link" href="#">Blogs</Link>
                         </li>
                     </ul>
 
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    <button class="btn btn-outline-success my-2 " type="submit">Start Applying</button>
 
                 </div>
-            </nav>
-           
-        </div>
+            </div>
+        </nav>
+        
+
     );
 };
 

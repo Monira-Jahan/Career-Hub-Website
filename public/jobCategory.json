@@ -1,0 +1,27 @@
+[
+    {
+      "job_id": "001",
+      "image_url": "https://example.com/job001.jpg",
+      "category": "Software Development",
+      "available_jobs": 10
+    },
+    {
+      "job_id": "002",
+      "image_url": "https://example.com/job002.jpg",
+      "category": "Marketing",
+      "available_jobs": 5
+    },
+    {
+      "job_id": "003",
+      "image_url": "https://example.com/job003.jpg",
+      "category": "Human Resources",
+      "available_jobs": 2
+    },
+    {
+      "job_id": "004",
+      "image_url": "https://example.com/job004.jpg",
+      "category": "Customer Service",
+      "available_jobs": 8
+    }
+  ]
+  

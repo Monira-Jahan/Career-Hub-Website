@@ -1,0 +1,53 @@
+[
+    
+      {
+        "id": 1,
+        "image": "https://example.com/images/job1.jpg",
+        "job_time": "Full-time",
+        "job_type": "Software Engineer",
+        "location": "San Francisco",
+        "salary": "100000"
+      },
+      {
+        "id": 2,
+        "image": "https://example.com/images/job2.jpg",
+        "job_time": "Part-time",
+        "job_type": "Graphic Designer",
+        "location": "New York City",
+        "salary": "50000"
+      },
+      {
+        "id": 3,
+        "image": "https://example.com/images/job3.jpg",
+        "job_time": "Contract",
+        "job_type": "Project Manager",
+        "location": "Los Angeles",
+        "salary": "80000"
+      },
+      {
+        "id": 4,
+        "image": "https://example.com/images/job4.jpg",
+        "job_time": "Full-time",
+        "job_type": "Marketing Coordinator",
+        "location": "Chicago",
+        "salary": "75000"
+      },
+      {
+        "id": 5,
+        "image": "https://example.com/images/job5.jpg",
+        "job_time": "Part-time",
+        "job_type": "Sales Associate",
+        "location": "Boston",
+        "salary": "40000"
+      },
+      {
+        "id": 6,
+        "image": "https://example.com/images/job6.jpg",
+        "job_time": "Contract",
+        "job_type": "Accountant",
+        "location": "Seattle",
+        "salary": "90000"
+      }
+    ]
+  
+  
