@@ -23,11 +23,12 @@ const DefaultPage = () => {
                         <h1 class="fs-1 fw-bolder">One Step Closer To Your</h1>
                         <h1 className="title fw-bolder fs-1"> Dream Job</h1>
                         <p className="fs-6">Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.</p>
-                        <button type="button" className="btn">Get Started</button>
+                        <button type="button" className="btn text-white">Get Started</button>
                     </div>
                     <img class="h-50 w-50 w-sm-100" src="./src/assets/images/P3OLGJ1.png" alt="" />
                 </div>
             </div>
+            {/* Job category List Seection */}
             <div>
                 <h3 className="text-center pt-5 pb-2">Job Category List </h3>
                 <p className='text-center pb-3'>Explore thousands of job opportunities with all the information you need. Its your future</p>
@@ -40,11 +41,11 @@ const DefaultPage = () => {
                         </Category>)
                     }
                 </div>
+                {/* Featured Jobs Section */}
                 <div>
                 <h3 className="text-center pt-5 pb-2">Featured Jobs </h3>
                 <p className='text-center pb-3'>Explore thousands of job opportunities with all the information you need. Its your future</p>
-                    <div className=''>
-                        
+                    <div className='container ps-5'>     
                     {
                         featureJobs.map(featureJob => <FeattureJob
                             key={featureJob.id}

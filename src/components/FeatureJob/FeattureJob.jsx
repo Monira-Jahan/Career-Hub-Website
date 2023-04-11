@@ -4,12 +4,13 @@ import './FeatureJob.css'
 const FeattureJob = ({featureJob}) => {
     const{id,image,job_title,company_name,job_type,job_time,location,salary}=featureJob;
     return (
-        <div className='feature'>
-            <div className=' card category border border-white px-5 py-3 rounded'>
+        <div className='col' >
+            <div className='card h-100'>
+            <div className='px-4 card-body'>
                <img src={image} />
                <h6 className='pt-4'>{job_title}</h6>
                <p className=''>{company_name}</p>
-               <div>
+               <div class="button">
                 <button className="btn bg-none ">{job_type}</button>
                 <button className="btn mx-2">{job_time}</button>
                </div>
@@ -17,7 +18,9 @@ const FeattureJob = ({featureJob}) => {
                 <p className=''>{location}</p>
                 <p className='mx-2'>Salary:{salary}</p>
                </div>
+               <a href="#" class="btn btn-primary">View Details</a>
             </div>
+        </div>
         </div>
     );
 };

@@ -24,7 +24,7 @@ const Header = () => {
                         </li>
                     </ul>
 
-                    <button class="btn btn-outline-success my-2 " type="submit">Start Applying</button>
+                    <button class="btn btn-outline-success text-white my-2 " type="submit">Start Applying</button>
 
                 </div>
             </div>
