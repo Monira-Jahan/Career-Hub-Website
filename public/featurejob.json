@@ -2,52 +2,69 @@
     
       {
         "id": 1,
-        "image": "https://example.com/images/job1.jpg",
+        "image":"/images/google.png",
+        "job_title": "Software Engineer",
+        "company_name":"GoogleLLC",
+        "job_type":"Remote",
+        "location": "California,USA",
         "job_time": "Full-time",
-        "job_type": "Software Engineer",
-        "location": "San Francisco",
-        "salary": "100000"
+        "salary": "100k-120k",
+        "description":"We're looking for a skilled software engineer to join our team and help build cutting-edge software solutions",
+        "responsibility":"Design, develop, and maintain software applications",
+        "educational_requirements":"Bachelor's degree in computer science or a related field",
+        "Experiences":"Minimum 3 years of experience in software engineering",
+        "phone":"01823-345672",
+        "email":"google12@gmail.com"
       },
       {
         "id": 2,
-        "image": "https://example.com/images/job2.jpg",
-        "job_time": "Part-time",
-        "job_type": "Graphic Designer",
-        "location": "New York City",
-        "salary": "50000"
-      },
+      "image": "/images/tesla.png",
+      "job_title": "Senior Product Designer",
+      "company_name":"Tesla",
+      "job_type":"Remote",
+      "location": "San Francisco",
+      "job_time": "Part-time",
+      "salary": "100k-150k",
+      "description": "We're looking for a product designer to join our team and help us create innovative and delightful experiences for our customers.",
+      "educational_requirements":"Bachelor's or higher degree in design, human-computer interaction, or related field",
+     "responsibility": "Collaborate with cross-functional teams to design intuitive and engaging user experiences, prototype and test design concepts, develop design systems and guidelines",
+     "experience": "At least 3 years of relevant experience in product design or user experience design",
+     "phone": "01512-345670",
+     "email": "recruiteorg@example.com"
+     },
       {
-        "id": 3,
-        "image": "https://example.com/images/job3.jpg",
-        "job_time": "Contract",
-        "job_type": "Project Manager",
-        "location": "Los Angeles",
-        "salary": "80000"
-      },
+      "id": 3,
+      "image": "/images/netflix.png",
+      "job_title": "Tecgnical Database Engineer",
+      "company_name":"NetFlix",
+      "job_type":"Onsite",
+      "location": "San Francisco",
+      "job_time": "Full-time",
+      "salary": "100k-150k",
+      "description": "As a technical database engineer, you will be responsible for designing, implementing, and maintaining complex database systems that meet the needs of our organization. This role requires a deep understanding of database architecture, data modeling, and performance tuning.",
+      "educational_requirements":"Bachelor's degree in Computer Science, Information Technology, or related field",
+      "responsibility": "Design and implement complex database systems that meet the needs of our organization, Optimize database performance and ensure scalability,Collaborate with software engineers to integrate databases with applications",
+      "experience": "Minimum of 5 years of experience in database engineering",
+      "phone": "01712-345670",
+      "email": "netflixrecruiter@example.com"
+   },
       {
         "id": 4,
-        "image": "https://example.com/images/job4.jpg",
-        "job_time": "Full-time",
-        "job_type": "Marketing Coordinator",
-        "location": "Chicago",
-        "salary": "75000"
-      },
-      {
-        "id": 5,
-        "image": "https://example.com/images/job5.jpg",
-        "job_time": "Part-time",
-        "job_type": "Sales Associate",
-        "location": "Boston",
-        "salary": "40000"
-      },
-      {
-        "id": 6,
-        "image": "https://example.com/images/job6.jpg",
-        "job_time": "Contract",
-        "job_type": "Accountant",
-        "location": "Seattle",
-        "salary": "90000"
+      "image": "/images/tesla.png",
+      "job_title": "Database Engineer",
+      "company_name":"Tesla",
+      "job_type":"Onsite",
+      "location": "Chicago, IL",
+      "job_time": "Full-time",
+      "salary": "90k-100k",
+      "description": "As a technical database engineer, you will be responsible for designing, implementing, and maintaining complex database systems that meet the needs of our organization. This role requires a deep understanding of database architecture, data modeling, and performance tuning.",
+      "educational_requirements":"Bachelor's degree in Computer Science, Information Technology, or related field",
+      "responsibility": "Design and implement complex database systems that meet the needs of our organization, Optimize database performance and ensure scalability,Collaborate with software engineers to integrate databases with applications",
+      "experience": "Minimum of 5 years of experience in database engineering",
+      "phone": "1312-3666",
+      "email": "tesla@example.com"
       }
+    
     ]
   
   

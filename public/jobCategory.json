@@ -1,27 +1,27 @@
 [
     {
-      "job_id": "001",
-      "image_url": "https://example.com/job001.jpg",
-      "category": "Software Development",
-      "available_jobs": 10
+      "id": "001",
+      "logo": "/Icons/accounts.png",
+      "category_name": "Account & Finance",
+      "available_jobs": "300 Jobs available"
     },
     {
-      "job_id": "002",
-      "image_url": "https://example.com/job002.jpg",
-      "category": "Marketing",
-      "available_jobs": 5
+      "id": "002",
+      "logo": "/Icons/business.png",
+      "category_name": "Creative Design",
+      "available_jobs": "100+ Jobs available"
     },
     {
-      "job_id": "003",
-      "image_url": "https://example.com/job003.jpg",
-      "category": "Human Resources",
-      "available_jobs": 2
+      "id": "003",
+      "logo": "/Icons/social-media.png",
+      "category_name": "Marketing & Sales",
+      "available_jobs": "200 Jobs available"
     },
     {
-      "job_id": "004",
-      "image_url": "https://example.com/job004.jpg",
-      "category": "Customer Service",
-      "available_jobs": 8
+      "id": "004",
+      "logo": "/Icons/chip.png",
+      "category_name": "Engineering Jobs",
+      "available_jobs": "150 Jobs available"
     }
   ]
   
