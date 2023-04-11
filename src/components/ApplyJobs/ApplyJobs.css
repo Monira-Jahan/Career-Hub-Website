@@ -1,9 +1,4 @@
-nav{
+.banner{
     background: linear-gradient(90deg, rgba(126, 144, 254, 0.1) 0%, rgba(152, 115, 255, 0.1) 100%);
-    
-    padding-left:48px;
-    
-}
-h4{
-  padding-left: 10px;
+    border-radius: 8px;
 }

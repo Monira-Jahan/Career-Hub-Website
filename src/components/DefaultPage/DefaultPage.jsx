@@ -18,7 +18,7 @@ const DefaultPage = () => {
     return (
         <div>
             <div className='banner'>
-                <div className=" d-md-flex fw-bolder">
+                <div className="d-md-flex fw-bolder">
                     <div className='my-sm-5 mx-5 px-lg-4 me-3'>
                         <h1 class="fs-1 fw-bolder">One Step Closer To Your</h1>
                         <h1 className="title fw-bolder fs-1"> Dream Job</h1>
@@ -45,7 +45,7 @@ const DefaultPage = () => {
                 <div>
                 <h3 className="text-center pt-5 pb-2">Featured Jobs </h3>
                 <p className='text-center pb-3'>Explore thousands of job opportunities with all the information you need. Its your future</p>
-                    <div className='container ps-5'>     
+                    <div className='feature-jobs container ps-5'>     
                     {
                         featureJobs.map(featureJob => <FeattureJob
                             key={featureJob.id}

@@ -10,6 +10,7 @@ import Home from './components/Home/Home';
 import Statistics from './components/Statistics/Statistics';
 import DefaultPage from './components/DefaultPage/DefaultPage';
 import ErrorPage from './components/ErrorPage/ErrorPage';
+import ApplyJobs from './components/ApplyJobs/ApplyJobs';
 
 const router=createBrowserRouter([
   {
@@ -25,6 +26,11 @@ const router=createBrowserRouter([
       {
         path:'/statistics',
         element:<Statistics></Statistics>
+      },
+      {
+        path:'/applyjobs',
+        element:<ApplyJobs></ApplyJobs>,
+        loader:()=>fetch('featurejob.json')
       }
      ]
   }
