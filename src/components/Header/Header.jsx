@@ -13,6 +13,9 @@ const Header = () => {
 
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                            <Link class="nav-link" to="/">Home</Link>
+                        </li>
                         <li class="nav-item active">
                             <Link class="nav-link" to="/statistics">Statistics</Link>
                         </li>
