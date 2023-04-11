@@ -52,7 +52,9 @@ const DefaultPage = () => {
                             featureJob={featureJob}>
                                 </FeattureJob>)
                     }
-                    
+                <div className="mx-auto mb-4 text-center">
+                    <a href="#" class="all-jobs btn btn-primary">See All Jobs</a>
+                    </div>  
                     </div>
                     
                 </div>

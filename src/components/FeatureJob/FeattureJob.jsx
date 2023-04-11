@@ -11,16 +11,17 @@ const FeattureJob = ({featureJob}) => {
                <h6 className='pt-4'>{job_title}</h6>
                <p className=''>{company_name}</p>
                <div class="button">
-                <button className="btn bg-none ">{job_type}</button>
-                <button className="btn mx-2">{job_time}</button>
+                <button className="rounded border-2 border-primary text-primary bg-white">{job_type}</button>
+                <button className="rounded border-2 border-primary text-primary bg-white mx-2">{job_time}</button>
                </div>
-               <div className='d-flex '>
+               <div className='d-flex pt-3'>
                 <p className=''>{location}</p>
                 <p className='mx-2'>Salary:{salary}</p>
                </div>
                <a href="#" class="btn btn-primary">View Details</a>
             </div>
         </div>
+        
         </div>
     );
 };
