@@ -56,8 +56,8 @@ const Footer = () => {
                         </div>
                         <hr className='text-white'></hr>
                         <div className='d-flex justify-content-between'>
-                            <p className='text-white'>@2023 CareerHub. All Rights Reserved</p>
-                            <p className='text-white'>Powered by CareerHub</p>
+                            <p className='text-white'>@2023 JobRecruiter. All Rights Reserved</p>
+                            <p className='text-white'>Powered by JobRecruiter</p>
                         </div>
                     </div>
                 </div>

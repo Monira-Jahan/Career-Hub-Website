@@ -4,6 +4,10 @@ const ApplyJob = ({applyJob}) => {
     const{id,image,job_title,company_name,job_type,job_time,location,salary}=applyJob;
     return (
         <div>
+            <div className='d-flex gap-2 justify-content-end my-3'>
+            <button className='btn  text-light'>Show Remote</button>
+            <button className='btn mx-5 text-light'>Show Onsite</button>
+            </div>
            <div className='col' >
             <div className='card h-100 mx-5 my-3 bg-light'>
             <div className='d-flex gap-3 align-items-center justify-content-between px-4 card-body'>

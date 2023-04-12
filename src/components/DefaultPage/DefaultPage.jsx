@@ -25,7 +25,7 @@ const DefaultPage = () => {
                         <p className="fs-6">Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.</p>
                         <button type="button" className="btn text-white">Get Started</button>
                     </div>
-                    <img class="h-50 w-50 w-sm-100" src="./src/assets/images/P3OLGJ1.png" alt="" />
+                    <img class="h-50 w-50 w-sm-100" src="./images/P3OLGJ1.png" alt="" />
                 </div>
             </div>
             {/* Job category List Seection */}

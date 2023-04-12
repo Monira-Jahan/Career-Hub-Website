@@ -17,10 +17,10 @@ const ApplyJobs = () => {
             </div>
             <div>
                 {
-                    applyJobs.map(applyJob=><JobDetails
+                    applyJobs.map(applyJob=><ApplyJob
                     key={applyJob.id}
                     applyJob={applyJob}
-                    handleAddToJob={handleAddToJob}></JobDetails>)
+                    handleAddToJob={handleAddToJob}></ApplyJob>)
                 }
             </div>
         </div>
