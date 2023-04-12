@@ -5,7 +5,7 @@ const ApplyJob = ({applyJob}) => {
     return (
         <div>
            <div className='col' >
-            <div className='card h-100 mx-5 my-3'>
+            <div className='card h-100 mx-5 my-3 bg-light'>
             <div className='d-flex gap-3 align-items-center justify-content-between px-4 card-body'>
                 <div>
                <img src={image} />
