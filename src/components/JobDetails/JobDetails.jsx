@@ -5,9 +5,8 @@ import { useParams,useLoaderData } from 'react-router-dom';
 import './JobDetails.css'
 import { Link } from 'react-router-dom';
 
-
-
-const JobDetails = () => {
+const JobDetails = ({handleAddToJob}) => {
+    
     
     
     const jobDetails=useLoaderData();
@@ -58,7 +57,7 @@ const JobDetails = () => {
               <p><strong>Address:</strong> {jobDetails.location}</p>
               </div>
             </div>
-            <Link to="" className="apply btn btn-primary">Apply Now</Link>
+            <button onClick={() => handleAddToJob(jobDetails.id)} className="apply btn btn-primary">Apply Now</button>
             </div>
             
             </div>
@@ -67,6 +66,7 @@ const JobDetails = () => {
              
         </div>
     );
+   
 };
 
 export default JobDetails;

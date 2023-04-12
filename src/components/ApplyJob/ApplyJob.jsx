@@ -21,7 +21,7 @@ const ApplyJob = ({applyJob}) => {
                </div>
                </div>
                <div>
-               <a href="#" class="btn btn-primary">View Details</a>
+               <button onClick={()=>handleAddToJob(id)} class="btn btn-primary">View Details</button>
                </div>
             </div>
         </div>

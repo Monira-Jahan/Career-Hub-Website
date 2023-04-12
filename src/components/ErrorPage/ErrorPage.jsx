@@ -10,15 +10,18 @@ const ErrorPage = () => {
       <div className='container px-5 mx-5 py-5 '>
         
         <div className='max-w-md text-center'>
-          <h2 className='mb-8 fw-extrabold fs-1 text-gray-600'>
-           <h1> <span className='sr-only'>Error</span> {status || 404}</h1>
+          <h2 className='mb-8 fw-extrabold fs-1'>
+            <img src="./images/error.jpg"/>
+           <h1 className="pb-3"> <span className='pb-3 sr-only'>Error</span> {status || 404}</h1>
           </h2>
-          <p className='text-2xl font-semibold md:text-3xl mb-8'>
+          <h3>PAGE NOT FOUND</h3>
+          <p className='fs-2 font-semibold md:text-3xl mb-8'>
             {error?.message}
           </p>
+          <br></br>
           <Link
             to='/'
-            className='px-8 py-3 font-semibold rounded bg-cyan-200 text-gray-900'
+            className='my-4 px-5 py-3 fw-bold rounded bg-primary text-light'
           >
             Back to homepage
           </Link>
