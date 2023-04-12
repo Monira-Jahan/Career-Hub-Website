@@ -8,6 +8,7 @@ const ApplyJob = ({applyJob}) => {
             <button className='btn  text-light'>Show Remote</button>
             <button className='btn mx-5 text-light'>Show Onsite</button>
             </div>
+            <button>Show Remote</button>
            <div className='col' >
             <div className='card h-100 mx-5 my-3 bg-light'>
             <div className='d-flex gap-3 align-items-center justify-content-between px-4 card-body'>

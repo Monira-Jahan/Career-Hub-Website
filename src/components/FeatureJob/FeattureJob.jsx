@@ -17,9 +17,9 @@ const FeattureJob = ({featureJob}) => {
                 <button className="rounded border-2 border-primary text-primary bg-white mx-2">{job_time}</button>
                </div>
                <div className='location d-flex pt-3'>
-               <img src="src/assets/Icons/Frame-4.png"/>
+               <img src="/Icons/Frame-4.png"/>
                 <p className=''>{location}</p>
-                <img className="" src="src/assets/Icons/Frame.png"/>
+                <img className="" src="/Icons/Frame.png"/>
                 <p className='mx-2'>Salary:{salary}</p>
                </div>
                <Link to={`jobdetails/${id}`} class="btn btn-primary">View Details</Link>
