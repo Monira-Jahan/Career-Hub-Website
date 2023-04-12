@@ -1,84 +1,80 @@
 import React from 'react';
-import { PieChart, Pie, Sector, Cell, ResponsiveContainer, Tooltip } from 'recharts';
+import {
+  ComposedChart,
+  Line,
+  Area,
+  Bar,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  Legend,
+  ResponsiveContainer,
+} from 'recharts';
 
 
 const Statistics = () => {
     const marksArray = [
         {
-          id: 1,
-          assignment_1:50
+          name:"Html",
+          assignment:"assignment-1",
+          marks:50
         },
         {
-          id: 2,
-          assignment_2:53
+          name:"Html",
+          assignment:"assignment-2",
+          marks:53
         },
         {
-          id: 3,
-          assignment_3:60,
+          name:"Html",
+          assignment:"assignment-3",
+          marks:60,
           
         },
         {
-          id: 4,
-          assignment_4:59
+          name:"Html",
+          assignment:"assignment-4",
+          marks:59
         },
         {
-          id: 5,
-          assignment_5:58
+          name:"Html",
+          assignment:"assignment-5",
+          marks:58
         },
         {
-          id: 6,
-          assignment_6: 58      
+          name:"Html",
+          assignment:"assignment-6",
+          marks: 58      
          },
         {
-          id: 7,
-          assignment_7:60
+          name:"Html",
+          assignment:"assignment-7",
+          marks:60
         }
     ]
     return (
-        <div>
+          <div>
                <div className='banner d-flex justify-content-start'>
-                <img src="src/assets/images/vector.png"/>
-                <h2 className='text-center mx-5 px-5 py-5'>Statistics</h2>
+                <img src="./images/Vector.png"/>
+                <h2 className='text-justify mx-5 px-5 py-5'>Statistics</h2>
 
-            </div>  
-            <div>
-        <PieChart width={700} height={700}
-        >
-          <Pie
-            dataKey="assignment_1"
-        
-            startAngle={180}
-            endAngle={0}
-            data={marksArray}
-            
-            cx="50%"
-            cy="50%"
-            outerRadius={80}
-            fill="#8884d8"
-            label
-          />
-          <Pie
-            dataKey="assignment_2"
-        
-            startAngle={180}
-            endAngle={0}
-            data={marksArray}
-            cx="50%"
-            cy="50%"
-            outerRadius={80}
-            fill="#8884d8"
-            label
-          />
-          
-
-          <Tooltip/>
-          
-        </PieChart>
-      
+               </div>  
+            <div className='p-3'>
+            <ResponsiveContainer className=''width="80%" height={300}>  
+            <ComposedChart
+            data={marksArray}>
+          <Bar dataKey="marks" barSize={20} fill="#413ea0" />
+          <Line type="monotone" dataKey="assignment" stroke="#ff7300" />
+          <XAxis dataKey="assignment" />
+                <YAxis dataKey="marks"></YAxis>
+                <Tooltip />
+                <Legend/>
+            </ComposedChart>
+      </ResponsiveContainer>
         </div>       
             
-            
-        </div>
+        </div>   
+        
     );
 };
 
