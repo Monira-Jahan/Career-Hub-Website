@@ -12,7 +12,7 @@
         "description":"We're looking for a skilled software engineer to join our team and help build cutting-edge software solutions",
         "responsibility":"Design, develop, and maintain software applications",
         "educational_requirements":"Bachelor's degree in computer science or a related field",
-        "Experiences":"Minimum 3 years of experience in software engineering",
+        "experiences":"Minimum 3 years of experience in software engineering",
         "phone":"01823-345672",
         "email":"google12@gmail.com"
       },
@@ -49,7 +49,7 @@
       "email": "netflixrecruiter@example.com"
    },
       {
-        "id": 4,
+      "id": 4,
       "image": "/images/tesla.png",
       "job_title": "Database Engineer",
       "company_name":"Tesla",

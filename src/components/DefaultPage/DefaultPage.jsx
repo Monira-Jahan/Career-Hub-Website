@@ -11,7 +11,7 @@ const DefaultPage = () => {
    // console.log(categories);
    const[featureJobs,setFeatureJob]=useState([]);
    useEffect(()=>{
-    fetch('featurejob.json')
+    fetch('/featurejob.json')
     .then(res=>res.json())
     .then(data=>setFeatureJob(data))
    },[])

@@ -9,8 +9,9 @@ const Footer = () => {
                         <div class="d-md-flex justify-content-around">
                             <div class="px-4">
                                 <div class="fw-light fs-6 text-white text-heading mb-3">
-                                    <h3>JobRequirement</h3>
+                                    <h3>JobRecruiter</h3>
                                     <p class="pt-3">There are many variations of passages of Lorem Ipsum , but the majority have suffered alteration in some form.</p>
+                                    <img src="/Icons/Group.png"/>
                                 </div>
 
                             </div>
@@ -46,11 +47,17 @@ const Footer = () => {
                             </div>
                             <div class="mx-2 px-3">
                                 <h5 class="text-heading text-white fw-semibold mb-3 ">Contact</h5>
+                                <ul className='list-unstyled fw-light'>
                                 <li><a class="text-white fs-6" href="#">524 Broadway,NYC</a></li>
-                                    <li><a class="text-white fs-6" href="#">+1 777 - 978 - 5570</a></li>
-
+                                    <li><a class="text-white fs-6" href="#">+1777-978-5570</a></li>
+                                    </ul>
 
                             </div>
+                        </div>
+                        <hr className='text-white'></hr>
+                        <div className='d-flex justify-content-between'>
+                            <p className='text-white'>@2023 CareerHub. All Rights Reserved</p>
+                            <p className='text-white'>Powered by CareerHub</p>
                         </div>
                     </div>
                 </div>

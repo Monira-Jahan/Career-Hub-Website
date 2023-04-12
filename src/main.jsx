@@ -11,6 +11,8 @@ import Statistics from './components/Statistics/Statistics';
 import DefaultPage from './components/DefaultPage/DefaultPage';
 import ErrorPage from './components/ErrorPage/ErrorPage';
 import ApplyJobs from './components/ApplyJobs/ApplyJobs';
+import Blogs from './components/Blogs/Blogs';
+import JobDetails from './components/JobDetails/JobDetails';
 
 const router=createBrowserRouter([
   {
@@ -21,7 +23,17 @@ const router=createBrowserRouter([
       {
         path:'/',
         element:<DefaultPage></DefaultPage>,
-        loader:()=>fetch('jobCategory.json')
+        loader:()=>fetch('/jobCategory.json')
+      },
+      {
+        path:'/jobdetails/:id',
+        element:<JobDetails></JobDetails>,
+        loader:async({params})=>{
+          const res=await fetch("/featurejob.json");
+          const data=await res.json();
+          const jobs=data.find(job=>job.id == params.id)
+          return jobs;
+        }
       },
       {
         path:'/statistics',
@@ -30,7 +42,12 @@ const router=createBrowserRouter([
       {
         path:'/applyjobs',
         element:<ApplyJobs></ApplyJobs>,
-        loader:()=>fetch('featurejob.json')
+        loader:()=>fetch('/featurejob.json')
+      },
+      {
+        path:'/blogs',
+        element:<Blogs></Blogs>
+        
       }
      ]
   }

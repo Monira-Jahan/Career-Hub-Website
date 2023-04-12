@@ -36,7 +36,12 @@ const Statistics = () => {
     ]
     return (
         <div>
-                 
+               <div className='banner d-flex justify-content-start'>
+                <img src="src/assets/images/vector.png"/>
+                <h2 className='text-center mx-5 px-5 py-5'>Statistics</h2>
+
+            </div>  
+            <div>
         <PieChart width={700} height={700}
         >
           <Pie
@@ -70,7 +75,7 @@ const Statistics = () => {
           
         </PieChart>
       
-                
+        </div>       
             
             
         </div>
